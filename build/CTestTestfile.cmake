@@ -6,9 +6,13 @@
 # testing this directory and lists subdirectories to be tested as well.
 SUBDIRS(gtest)
 SUBDIRS(navigation)
+SUBDIRS(rosbridge_suite)
 SUBDIRS(move_base_msgs)
 SUBDIRS(mapping)
+SUBDIRS(rosapi)
+SUBDIRS(rosbridge_library)
 SUBDIRS(depthimage_to_laserscan)
+SUBDIRS(rosbridge_server)
 SUBDIRS(fake_localization)
 SUBDIRS(map_server)
 SUBDIRS(amcl)

@@ -845,11 +845,41 @@ robot_pose_ekf_BINARY_DIR:STATIC=/home/cruiser/catkin_ws/build/robot_pose_ekf
 //Value Computed by CMake
 robot_pose_ekf_SOURCE_DIR:STATIC=/home/cruiser/catkin_ws/src/robot_pose_ekf
 
+//Value Computed by CMake
+rosapi_BINARY_DIR:STATIC=/home/cruiser/catkin_ws/build/rosapi
+
+//The directory containing a CMake configuration file for rosapi.
+rosapi_DIR:PATH=/home/cruiser/catkin_ws/devel/share/rosapi/cmake
+
+//Value Computed by CMake
+rosapi_SOURCE_DIR:STATIC=/home/cruiser/catkin_ws/src/rosapi
+
 //The directory containing a CMake configuration file for rosbag.
 rosbag_DIR:PATH=/opt/ros/indigo/share/rosbag/cmake
 
 //The directory containing a CMake configuration file for rosbag_storage.
 rosbag_storage_DIR:PATH=/opt/ros/indigo/share/rosbag_storage/cmake
+
+//Value Computed by CMake
+rosbridge_library_BINARY_DIR:STATIC=/home/cruiser/catkin_ws/build/rosbridge_library
+
+//The directory containing a CMake configuration file for rosbridge_library.
+rosbridge_library_DIR:PATH=/home/cruiser/catkin_ws/devel/share/rosbridge_library/cmake
+
+//Value Computed by CMake
+rosbridge_library_SOURCE_DIR:STATIC=/home/cruiser/catkin_ws/src/rosbridge_library
+
+//Value Computed by CMake
+rosbridge_server_BINARY_DIR:STATIC=/home/cruiser/catkin_ws/build/rosbridge_server
+
+//Value Computed by CMake
+rosbridge_server_SOURCE_DIR:STATIC=/home/cruiser/catkin_ws/src/rosbridge_server
+
+//Value Computed by CMake
+rosbridge_suite_BINARY_DIR:STATIC=/home/cruiser/catkin_ws/build/rosbridge_suite
+
+//Value Computed by CMake
+rosbridge_suite_SOURCE_DIR:STATIC=/home/cruiser/catkin_ws/src/rosbridge_suite
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/indigo/share/rosconsole/cmake
@@ -1126,7 +1156,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=26
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=30
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
